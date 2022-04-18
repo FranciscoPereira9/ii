@@ -1,12 +1,12 @@
 ****README A4_RS1_A****
 
-* Ambiente de execução: Windows
-* Base de Dados: MariadB, com serviço phpMyAdmin fornecido pela FEUP. Os dados para log in estão incluídos no executável
+* Executable OS: Windows
+* Data Base: MariadB, with phpMyAdmin hosted by FEUP. Log in data included in the executable file.
 
-* Para correr o executável A4_RS1_A_mes.jar, basta correr o ficheiro "run_java.bat", depois de correr o simulador codesys, cujos parâmetros são:
-	- primeiro argumento deve ser o nome do servidor OPC-UA em que se corre, pe "DESKTOP-G3Q32TE"
-	- segundo argumento indica se se pretende reiniciar ou descartar as últimas informações, "n" para manter e "y" para descartar.
-	 Se se iniciar com "y", será iniciado ignorando todos os dados da base de dados e estado eventual do sfs.
-	 Com "n", irá buscar os dados guardados na base de dados bem como tudo o que está a acontecer na fábrica ou aconteceu e nao foi lido pelo MES.
-	 - o ficheiro bat reencaminha para ficheiros de texto separados, o std e o stderr, respetivamente em "out.txt" e "error_out.txt"
+* Intructions: To run the executable A4_RS1_A_mes.jar, 1st run the file "run_java.bat", then the simulator codesys with the following parameters:
+	- 1st argument should be the name of the OPC-UA server, i.e. "DESKTOP-G3Q32TE"
+	- 2nd argument if infomration from last session should be discarded, "n" to keep or "y" to discard.
+	 If "y", the program will ignore all the information in the database and the initial state of the sfs.
+	 If "n", it will fetch the database, as well as,  everything that happened in the sfs and was not read by the MES.
+	 - the bat file indicated to write in two separate text files, the std and stderr, respectively in "out.txt" and "error_out.txt".
 	 
