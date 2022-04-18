@@ -1,5 +1,6 @@
 ****GOAL****
-Described in detail in 
+
+Described in detail in II_2020_projecto_pt_v1.2.pdf file.
 
 ****README A4_RS1_A****
 
