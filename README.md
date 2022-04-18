@@ -1,3 +1,6 @@
+****GOAL****
+Described in detail in 
+
 ****README A4_RS1_A****
 
 * Executable OS: Windows
