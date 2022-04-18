@@ -8,5 +8,5 @@
 	- 2nd argument if infomration from last session should be discarded, "n" to keep or "y" to discard.
 	 If "y", the program will ignore all the information in the database and the initial state of the sfs.
 	 If "n", it will fetch the database, as well as,  everything that happened in the sfs and was not read by the MES.
-	 - the bat file indicated to write in two separate text files, the std and stderr, respectively in "out.txt" and "error_out.txt".
+	 - the bat file indicates to write in two separate text files, the std and stderr, respectively in "out.txt" and "error_out.txt".
 	 
